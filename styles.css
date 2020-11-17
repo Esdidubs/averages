@@ -1,0 +1,89 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+.hidden {
+	display: none;
+}
+
+body {
+	color: white;
+	text-shadow: 0px 1px 0px black;
+	background-color: #4f4189;
+	background: linear-gradient(to bottom, #4f4189 5%, #5e5584 100%);
+	text-align: center;
+	height: 100%;
+	margin: 0 0 40px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+footer {
+	background-color: #515175;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	overflow: hidden;
+}
+
+footer p {
+	font-size: 16px;
+	margin-top: 12px;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+legend {
+	font-size: 30px;
+}
+
+#cardSection{
+    font-size: 30px;
+}
+
+.rules {
+	border: 2px black solid;
+	width: 75%;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+button {
+	box-shadow: 3px 3px 0px 0px #23395e;
+	background: linear-gradient(to bottom, #316e2e 5%, #458941 100%);
+	background-color: #316e2e;
+	border-radius: 6px;
+	border: 1px solid #1f2f47;
+	display: inline-block;
+	color: white;
+	padding: 12px 44px;
+	text-shadow: 0px 1px 0px #263666;
+	margin: 10px 10px 25px 10px;
+}
+button:hover {
+	background: linear-gradient(to bottom, #458941 5%, #316e2e 100%);
+	background-color: #458941;
+}
+button:active {
+	position: relative;
+	top: 1px;
+}
+
+@media (min-width: 768px) {
+	.rules {
+		width: 62.5%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.rules {
+		width: 50%;
+	}
+}

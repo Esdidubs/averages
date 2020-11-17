@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law of Averages</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Law of Averages</h1>
+    </header>
+    <main>
+        <form id="cardForm">
+            <fieldset class="rules" id="rules">
+                <legend>Rules</legend>
+                <p class="description">
+                    Split into teams of equal players. Each round, a question is asked and everyone writes down an answer without consulting
+                    their teammates. Once everyone has written an answer, the teams average their answer out, and that becomes their official
+                    answer. Whichever team's official answer is closest to the correct answer wins the round. <br><br>
+                    Example: The question is "How many dwarves were with Snow White?" Kyle writes 9, Jonathan puts 4, and Dylan says 8. The average
+                    of their scores is 7, so that's their official team answer. Their official answer of 7 beats Chelsea, Sammi, and Becky's official
+                    answer of 9, so they win the round.
+                </p>
+            </fieldset>
+            <button id="newCard" class="hidden">New Round</button>
+            <button id="prevCard" class="hidden">Previous Round</button>
+            <button id="btnRules" class="hidden">Rules</button>
+            <div id="cardSection" class="hidden"></div>
+            <button id="answerBtn" class="hidden">Reveal Answer</button>   
+            <button id="newGame">Start the Game</button>
+            
+        </form>    
+    </main>
+    <footer><p>Law of Averages is a game by Steven Ward</p></footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="STORE.js"></script> 
+    <script src="app.js"></script>
+</body>
+</html>
